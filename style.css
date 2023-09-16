@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightsalmon;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85px;
+    background-color: rgba(255, 112, 35, 0.802);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+} 
+
+#contenedor{
+    width: 1220px;
+    height: 543px;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#seleccion-del-movimiento{
+    width: 50%;
+    height: 100%;
+    height: max-content;
+    background-color: rgba(240, 128, 128, 0.516);
+    float: left;
+}
+
+#resultado{
+    width: 50%;
+    height: 100%;
+    background-color: lightcoral;
+    float: right;
+}
+  
+#campo-batalla{
+    width: 590px;
+    height: 210px;
+    position: relative;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.caja-batalla{
+    background: none;
+}
+
+.text-mensajes{
+    font-size: 45px;
+    text-align: center;
+    justify-content: space-around;
+    padding: auto;
+    background-color: rgba(255, 112, 35, 0.683);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: auto;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 49px;
+    text-align: center;
+    justify-content: space-around;
+    padding: auto; 
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.img-batalla{
+    border-radius: 50%; 
+    justify-content: space-around;
+    max-width: 78%; 
+    max-height: 78%; 
+}
+
+.btn-ataques{
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.btn-ataques:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    transition:trasnform 0,5ms ease-in-out;
+    margin: 18px;
+}
